@@ -124,6 +124,6 @@ Now we have another package called "mainimport" that uses/calls "packageimport" 
         Main func
         Running from main.go
 
-From the output of the we can figure out the order of init() func execution/call. In main.go file the package "github.com/shysudo/initfunc/packageimport" is imported, so init() function from this imported package execute/runs and runs init() function from main.go.
+From the output from above we can figure out the order of init() func execution/call. In main.go file the package "github.com/shysudo/initfunc/packageimport" is imported, so init() function from this imported package execute/runs and runs init() function from main.go.
 
-The order of the init() func execution/run based on the alphabetical order of the files in the imported package i.e init() function in a.go execute first "WelCome in file a.go" and init() function in b.go execute next "Resume in file b.go"
+The execution/run of the order of init() function from imported pacakge runs based on the alphabetical order of the files in the imported package i.e init() function in a.go execute first "WelCome in file a.go" and init() function in b.go execute later "Resume in file b.go"
