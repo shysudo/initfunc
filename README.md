@@ -32,7 +32,7 @@ Lets run the program
 ## output
     OS running on my system
     
-Because sysos variable is black, we can see only the "OS running on my system" in output above.
+Because sysos variable is blank, we can see only the "OS running on my system" in output above.
 
 Now we can fill the blank variable by introuducing an init() function that initialize the value of sysos to the os of system
 
