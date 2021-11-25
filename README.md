@@ -1,8 +1,8 @@
 # init func
 
-# introduction
+## introduction
 
-Golang has special, niladic function init() for special purpouse of form a specific state for application.
+Golang has special, niladic function init() for special purpouse to form a specific state for application.
 
 init() function runs a piece of code before running other part of the package, which allow application to be initialize in a specific state, such as have a specific configuration or set of resource with application need to start.
 
