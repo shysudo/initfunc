@@ -8,7 +8,7 @@
 
     init() function it is also used when importing a side effect, a technique used to set the state of the application by importing a package.
 
-# declaring init()   
+## declaring init()   
 
     Before declaring an init() function, lets see a function without init() function
 
@@ -59,9 +59,9 @@ In this program we assinged runtime.GOOS(imported runtime package) to sysos vari
 ## output
         OS running on my system windows
         
-        Currently this program running on windows OS, so we can see in output "OS running on my system windows"
+Currently this program running on windows OS, so we can see in output "OS running on my system windows"
 
-        This illustrate that how init() works.
+This illustrate that how init() works.
 
 Another typical use case of init() when importing a package
 
