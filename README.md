@@ -91,7 +91,7 @@ Another typical use case of init() when importing a package
         	fmt.Println(BState)
         }
 
-Above two file a.go and b.go are in a package named "github.com/shysudo/initfunc/packageimport" and having a global variable AState, BState in a.go and b.go respectively, these variables are initialized to random string in init() function in both the file.
+Above two file a.go and b.go are in a package named "packageimport" and having a global variable AState, BState in a.go and b.go respectively, these variables are initialized to random string in init() function in both the file.
 
 Now we have another package called "mainimport" that uses/calls "packageimport" package for accessing the globle variable AState and BState. 
 
