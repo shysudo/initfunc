@@ -2,15 +2,15 @@
 
 # introduction
 
-    Golang has special, niladic function init() for special purpouse of form a specific state for application.
+Golang has special, niladic function init() for special purpouse of form a specific state for application.
 
-    init() function runs a piece of code before running other part of the package, which allow application to be initialize in a specific state, such as have a specific configuration or set of resource with application need to start.
+init() function runs a piece of code before running other part of the package, which allow application to be initialize in a specific state, such as have a specific configuration or set of resource with application need to start.
 
-    init() function it is also used when importing a side effect, a technique used to set the state of the application by importing a package.
+init() function it is also used when importing a side effect, a technique used to set the state of the application by importing a package.
 
 ## declaring init()   
 
-    Before declaring an init() function, lets see a function without init() function
+Before declaring an init() function, lets see a function without init() function
 
 ## maig.go //refer the package withoutimport
    
